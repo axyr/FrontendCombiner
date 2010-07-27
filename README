@@ -1,0 +1,7 @@
+FrontendCombiner to combine all javascript that are added in Page_Controller::init() and its subclasses;
+_config.php : Object::add_extension('Page_Controller','FrontendCombiner');
+Set site to live mode to use combined files : Director::set_environment_type("live"); 
+
+Martijn van Nieuwenhoven
+Axyr Media
+info@axyrmedia.nl
